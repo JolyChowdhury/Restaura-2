@@ -1,0 +1,508 @@
+@default: #212529;
+@primary: #47C1BF;
+@secondaryColor: #50248f;
+@allFontColor: ~"";
+@productTextFontColor: #230051;
+
+
+
+// ========= Primary Color =============
+a.btn-primary,
+button.btn-primary,
+.primary-btn,
+.header-form-wrapper .search-bar button,
+.cart-btn span.cart-item-counter,
+.buy-now-btn,
+.boost-ltri a,
+#wishlistModal .btn.btn-primary,
+.sidebar__widget.custom-sidebar-style .btn.btn-primary,
+#wishlist_short_url_form .btn-primary,
+.product-pagination-wrapper .product-pagination button,
+.product-search-box button,
+.thank-you-default-button .btn,
+.gallery-images .slick-arrow,
+button#addCartBtn,
+.user-login-modal .registration-btn,
+.user-login-modal .login-btn,
+.autocomplete-active,
+.header-form .search-bar button,
+#to-top {
+    background-color: @primary !important;
+    border-color: @primary !important;
+}
+
+.error-page h1,
+.next-previous-content a,
+.faq-heading-wrapper h3,
+.faq-heading-content p,
+.post_btn a,
+a:hover,
+.post_btn i,
+.product-sample-wrapper h6.product-sample-price,
+span#totalAmount,
+.mw-price-item-key.mw-price-item-key-price,
+.copyright-text a,
+.pf-event a.btn.btn-outline-primary.btn-lg,
+a.collection-title,
+.sticky-blog-text a,
+.service-single i,
+.product-content p.product-info a,
+a.read-more-btn,
+.footer_nav li a:hover,
+#header-menu ul li ul li>a.menu_element_link{
+    color: @primary !important;
+}
+
+.error-page a,
+a.btn-default{
+    border-color: @primary !important;
+    background: @primary !important;
+}
+
+.error-page a:hover{
+    border-color: @primary !important;
+}
+
+.gallery-images .slick-arrow,
+.bestselling-products .bestselling-tag,
+.header-top-area,
+.animated-ticker div a,
+.boost-body #cartModal .modal-footer .btn{
+    background-color: @primary !important;
+}
+
+// ========= Secondary Color =============
+.boost-collection .feature h6,
+.product-sample-wrapper h5:hover,
+h2.post_title a:hover,
+ul.main-nav li a,
+.search-form-wrapper i, .login-btn li i, .cart-box-wrapper>i,
+.label-text span,
+.section-heading h2,
+.boost-body h2,
+.animated-ticker div,
+.boost-promo-products .promo-product-text h5,
+p.sub-heading,
+.boost-sticky-products .sticky-character-content h5,
+.boost-carousel .product-content h5,
+.boost-carousel .product-content h6.product-sample-price,
+.sticky-blog-right-single h2.post-title a,
+.boost-sticky-blog .post_block_content_wrapper .post-excerpt p, p.pagination-text,
+.boost-testmonial .testimonial-carousel-item-content p,
+.service-single h3,
+.service-single p,
+.product-content p.product-info,
+.search-form-wrapper input,
+ul.breadcrumb-nav li a {
+    color: @secondaryColor !important;
+}
+
+.boost-collection .feature .holder.icon a,
+.footer_social li a,
+.single-slide .content a,
+a.purple-btn,
+.boost-testmonial .slide-holder h6::before,
+.cart-box-wrapper span.counter {
+    background-color: @secondaryColor !important;
+}
+
+.user-menu-dropdown::before {
+    border-color: transparent transparent @secondaryColor transparent !important;
+}
+
+// ========= Font color for everything except product text =============
+body {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    .contact-wrapper span,
+    .blog-date,
+    .home-banner-slider .slider-content h2,
+    .home-banner-slider .slider-content p,
+    .footer-mail-address i,
+    .footer-mail-address,
+    .footer-helpline i,
+    .footer-help h4,
+    .footer-helpline,
+    .footer-available-time p,
+    .footer-map-link a,
+    .footer-address p,
+    .footer-link-header,
+    .footer-link li a,
+    .ultra-th .heading .price h1,
+    .ultra-th .heading .price h3.period,
+    .ultra-th .heading > p,
+    .ultra-th.pricing-card-active-color .heading > p,
+    .pricing-card.pricing-list-new
+    .plan.pricing-card-active-color
+    .heading
+    .price
+    .sum,
+    .ultra-acc-top i,
+    .ultra-acc-top h2,
+    .marketing-table tr span,
+    .marketing-table tr,
+    .pricing-card.pricing-list-new .plan .heading .price .period,
+    .pricing-card.pricing-list-new .plan .heading p,
+    .pricing-card.pricing-list-new .plan .heading .price .sum,
+    .home-product-slider-left-image-content a,
+    .header-top-text span,
+    .home-banner-wrapper-top-cat-sample-content a,
+    .home-banner-wrapper-top-cat-sample-content h5,
+    p span,
+
+    .error-page h1,
+    .next-previous-content a,
+    .faq-heading-wrapper h3,
+    .faq-heading-content p,
+    .post_btn a,
+    a:hover,
+    .post_btn i,
+    .product-sample-wrapper h6.product-sample-price,
+    span#totalAmount,
+    .mw-price-item-key.mw-price-item-key-price,
+    .copyright-text a,
+    .pf-event a.btn.btn-outline-primary.btn-lg,
+    a.collection-title,
+    .sticky-blog-text a,
+    .service-single i,
+    .product-content p.product-info a,
+    a.read-more-btn,
+    .footer_nav li a:hover,
+    #header-menu ul li ul li>a.menu_element_link,
+
+    .boost-collection .feature h6,
+    .product-sample-wrapper h5:hover,
+    h2.post_title a:hover,
+    ul.main-nav li a,
+    .search-form-wrapper i, .login-btn li i, .cart-box-wrapper>i,
+    .label-text span,
+    .section-heading h2,
+    .boost-body h2,
+    .animated-ticker div,
+    .boost-promo-products .promo-product-text h5,
+    p.sub-heading,
+    .boost-sticky-products .sticky-character-content h5,
+    .boost-carousel .product-content h5,
+    .boost-carousel .product-content h6.product-sample-price,
+    .sticky-blog-right-single h2.post-title a,
+    .boost-sticky-blog .post_block_content_wrapper .post-excerpt p, p.pagination-text,
+    .boost-testmonial .testimonial-carousel-item-content p,
+    .service-single h3,
+    .service-single p,
+    .product-content p.product-info,
+    .search-form-wrapper input,
+    ul.breadcrumb-nav li a{
+        color: @allFontColor;
+    }
+    .product-sample-price,
+    .product-sample-wrapper .product-tax-text div,
+    .product-sample-title h5 {
+        color: @productTextFontColor;
+    }
+
+    .product-info-content {
+        .shop-inner-page .item-price span,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        a,
+        p,
+        span {
+            color: @productTextFontColor;
+        }
+    }
+
+    .product-info-content {
+        .description {
+            p,
+            ul li,
+            li,
+            div,
+            span {
+                color: @productTextFontColor !important;
+            }
+        }
+
+    }
+    .shop-inner-page .item-price,
+    .shop-inner-page .product-tax-text div,
+    .shop-inner-page .item-price span {
+        color: @productTextFontColor !important;
+    }
+}
+
+// ========= Header menu =============
+@menuFontColor: #000;
+@menuFontHoverColor: #1d1d1d;
+
+@submenuContainerBackground: #fff;
+@submenuColor: #000;
+@submenuItemHoverBg: #f04f36;
+@submenuItemHoverColor: #fff;
+
+.main-navigation ul.menu-root li a {
+    color: @menuFontColor !important;
+}
+
+.main-navigation ul.menu-root li a:hover {
+    color: @menuFontHoverColor !important;
+}
+
+.main-navigation ul.menu-root li ul.dropdown-menu {
+    background-color: @submenuContainerBackground;
+}
+
+div#header-menu ul li ul li > a {
+    color: @submenuColor !important;
+}
+
+div#header-menu ul li ul li > a:hover {
+    color: @submenuItemHoverColor !important;
+}
+
+div#header-menu ul li ul li > a:hover {
+    background-color: @submenuItemHoverBg !important;
+}
+
+// ========= Header icons =============
+@headerIconColor: #000;
+
+.header-icon {
+    color: @headerIconColor !important;
+}
+
+// ========= User menu option =============
+@usermenuBg: #fff;
+@usermenuColor: #000;
+@usermenuHoverBg: #fff;
+@usermenuHoverColor: #000;
+
+.user-menu-dropdown {
+    background-color: @usermenuBg !important;
+}
+
+.user-menu-dropdown li a {
+    color: @usermenuColor !important;
+}
+
+.user-menu-dropdown li a:hover {
+    background-color: @usermenuHoverBg !important;
+}
+
+.user-menu-dropdown li a:hover {
+    color: @usermenuHoverColor !important;
+}
+
+// ========= Breadcrumb color option =============
+@breadcumbHyperlinkColor: #230051;
+@breadcumbTextColor: #230051;
+
+.breadcrumb-item a,
+ul.breadcrumb-nav li a {
+    color: @breadcumbHyperlinkColor !important;
+}
+
+.breadcrumb-item.active,
+ul.breadcrumb-nav li a {
+    color: @breadcumbTextColor !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: @breadcumbHyperlinkColor !important;
+}
+
+.shop-inner-cat {
+    color: @breadcumbHyperlinkColor !important;
+}
+
+// ========= Cateogory color option =============
+@categoryTextColor: #222;
+@categoryTextHoverColor: #222;
+
+.categorySideBar .module-categories .well > ul.nav li a {
+    color: @categoryTextColor !important;
+}
+
+.categorySideBar .module-categories .well > ul.nav li a:hover {
+    color: @categoryTextHoverColor !important;
+}
+
+// ========= Pricing card option =============
+@pricingtableHeadingTd: #e2e2e2;
+@pricingtableTd: #fff;
+@pricingtableHeadingTdColor: #6b7177;
+@pricingtableTdColor: #212529;
+@pricingtableHoverBgColor: #f0f1f2;
+
+.marketing-table tr {
+    background: @pricingtableTd !important;
+    color: @pricingtableTdColor !important;
+}
+
+td.pricing-table-heading {
+    background: @pricingtableHeadingTd !important;
+    color: @pricingtableHeadingTdColor !important;
+}
+
+.pricing-card.pricing-list-new .plan.pricing-card-active-color,
+th.ultra-th.pricing-card-active-color {
+    background: @primary !important;
+    box-shadow: 0 8px 32px 0 @primary !important;
+}
+
+.pricing-card.pricing-list-new .plan:hover {
+    background: @primary !important;
+    box-shadow: 0 8px 32px 0 @primary !important;
+}
+
+.readmore-icon > div {
+    border: 1px solid @primary !important;
+    color: @primary !important;
+    box-shadow: 0 0 4px 0px @primary !important;
+}
+
+.readmore-icon > div:hover {
+    background: @primary !important;
+    color: #fff !important;
+}
+
+.btn-outline-primary {
+    color: @primary !important;
+    border-color: @primary !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: @primary !important;
+    border-color: @primary !important;
+    color: #fff !important;
+}
+
+.pricing-card.pricing-list-new
+    .plan.pricing-card-active-color
+    .button-holder
+    .btn {
+    border-color: @primary !important;
+}
+
+table.marketing-table tr:hover {
+    background: @pricingtableHoverBgColor !important;
+}
+
+th.ultra-th.pricing-card-active-color {
+    border-color: @primary !important;
+}
+
+// ========= Bestselling tag =============
+.bestselling-products .bestselling-tag {
+    background-color: @primary !important;
+}
+
+.bestselling-products .bestselling-tag:after {
+    border-color: @primary transparent transparent transparent !important;
+}
+
+// ========= Others options =============
+@taxTextColor: #000;
+@settingsHeaderBg: #046e82;
+@productTextFontColor: ~"";
+@nexPrevtipbgColor: #1d1d1d;
+
+
+.product-tax-text span:last-child {
+    color: @taxTextColor !important;
+}
+
+.mw-dialog-skin-default .mw-dialog-header {
+    background-color: @settingsHeaderBg !important;
+}
+
+.product-sample-price,
+.product-sample-wrapper .product-tax-text div,
+.product-sample-title h5 {
+    color: @productTextFontColor;
+}
+
+.product-info-content {
+    .shop-inner-page .item-price span,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a,
+    p,
+    span,
+    .shop-inner-cat {
+        color: @productTextFontColor !important;
+    }
+}
+
+.product-info-content {
+    .description {
+        p,
+        ul li,
+        li,
+        div,
+        span {
+            color: @productTextFontColor !important;
+        }
+    }
+
+}
+.shop-inner-page .item-price,
+.shop-inner-page .product-tax-text div,
+.shop-inner-page .item-price span,
+.shop-inner-pag .product-info-content h3,
+.shop-inner-pag .product-info-content th,
+.shop-inner-pag .product-info-content td,
+.shop-inner-pag .product-info-content .table-borderless>:not(caption)>*>*,
+.shop-inner-pag .product-info-content .checkbox label,
+.description div,
+.description p,
+.description a,
+.description span,
+.description h1,
+.description h2,
+.description h3,
+.description h4,
+.description h5,
+.description h6
+
+ {
+    color: @productTextFontColor !important;
+}
+
+.mw-tooltip-dark .mw-tooltip-content {
+    background-color: @nexPrevtipbgColor;
+}
+
+.product-pagination-wrapper .preloader {
+    border-top: 6px solid @primary !important;
+}
+
+// ========= Footer menu option =============
+@footerMenuColor: #000;
+@footerMenuHoverColor: #000;
+
+.footer_nav li a,
+footer a,
+.footer-col a span,
+ul.footer-menu li a,
+.footer-col a {
+    color: @footerMenuColor !important;
+}
+
+.footer_nav li a:hover,
+footer a:hover, .footer-col a span:hover,
+ul.footer-menu li a:hover, .footer-col a:hover {
+    color: @footerMenuHoverColor !important;
+}
